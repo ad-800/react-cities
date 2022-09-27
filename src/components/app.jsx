@@ -11,6 +11,9 @@ const App = () => {
   return (
     <div className="app">
       <CityList cities={cities} />
+      <div className="active-city">
+        
+      </div>
     </div>
   );
 };
